@@ -21,3 +21,4 @@ Devtools:
 - https://github.com/astral-sh/uv
 - https://github.com/astral-sh/ruff
 - https://github.com/casey/just
+- https://github.com/goreleaser/goreleaser
