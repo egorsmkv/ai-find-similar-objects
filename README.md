@@ -4,6 +4,7 @@ Rust in Action: embed your images into Qdrant and search for similar objects usi
 
 Using:
 
+- https://github.com/s3rius/rustus
 - https://github.com/qdrant/qdrant
 - https://github.com/qdrant/rust-client
 - https://github.com/Anush008/fastembed-rs
