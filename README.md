@@ -9,3 +9,4 @@ Using:
 - https://github.com/qdrant/rust-client
 - https://github.com/Anush008/fastembed-rs
 - https://github.com/egorsmkv/yolo-inference
+- https://github.com/casey/just
