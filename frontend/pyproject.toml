@@ -7,6 +7,7 @@ requires-python = "<3.13,>=3.12"
 dependencies = [
     "gradio>=5",
     "fastembed>=0.5",
+    "tuspy>=1.1",
 ]
 
 [project.optional-dependencies]

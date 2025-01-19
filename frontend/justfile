@@ -1,5 +1,7 @@
 set dotenv-filename := '.env.dev'
 
+bin := ".venv/bin"
+
 run:
     gradio app.py
 
