@@ -20,6 +20,8 @@ Also, join our Telegram group about Computer Vision: https://t.me/computer_visio
 <details>
   <summary>Click here to see the list</summary>
 
+---
+
 Backend:
 
   - https://github.com/s3rius/rustus
