@@ -6,36 +6,42 @@
 
 Show how you can use Rust in the AI field to find similar objects in a vector database.
 
+Also, join our Telegram group about Computer Vision: https://t.me/computer_vision_uk
+
 ### Algorithm
 
-1. Upload a large file
-2. Detect objects using YOLO 11
-3. Embed each image using **clip-ViT-B-32** and upload into **Qdrant**
+1. Upload a large file using [TUS protocol][4]
+2. Detect objects using [YOLO 11][3]
+3. [Embed][1] each image using [**clip-ViT-B-32**][2] and upload into **Qdrant**
 4. Upload interested object and try to find similar ones
 
-## Components
+### Components
 
-Backend:
+<details>
+  <summary>Click here to see the list</summary>
+  
+  Backend:
 
-- https://github.com/s3rius/rustus
-- https://github.com/qdrant/qdrant
-- https://github.com/qdrant/rust-client
-- https://github.com/Anush008/fastembed-rs
-- https://github.com/egorsmkv/yolo-inference
-- https://github.com/svenstaro/miniserve
+    - https://github.com/s3rius/rustus
+    - https://github.com/qdrant/qdrant
+    - https://github.com/qdrant/rust-client
+    - https://github.com/Anush008/fastembed-rs
+    - https://github.com/egorsmkv/yolo-inference
+    - https://github.com/svenstaro/miniserve
 
-Frontend:
+    Frontend:
 
-- https://github.com/gradio-app/gradio
-- https://github.com/qdrant/fastembed
+    - https://github.com/gradio-app/gradio
+    - https://github.com/qdrant/fastembed
 
-Devtools:
+    Devtools:
 
-- https://github.com/astral-sh/uv
-- https://github.com/astral-sh/ruff
-- https://github.com/casey/just
-- https://github.com/goreleaser/goreleaser
-
+    - https://github.com/astral-sh/uv
+    - https://github.com/astral-sh/ruff
+    - https://github.com/casey/just
+    - https://github.com/goreleaser/goreleaser
+  
+</details>
 
 ## Install
 
@@ -71,3 +77,6 @@ cargo install just
 
 
 [1]: https://en.wikipedia.org/wiki/Word_embedding
+[2]: https://huggingface.co/Qdrant/clip-ViT-B-32-vision
+[3]: https://docs.ultralytics.com/models/yolo11/
+[4]: https://tus.io/
