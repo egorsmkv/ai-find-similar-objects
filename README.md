@@ -111,7 +111,7 @@ just run
 ```bash
 cargo install miniserve
 
-miniserve --port 8099 --interfaces 0.0.0.0 ./backend/rustus/data
+miniserve --interfaces 0.0.0.0 --port 8099 ./backend/rustus/data
 ```
 
 ### Frontend
