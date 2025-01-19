@@ -1,0 +1,14 @@
+set dotenv-filename := '.env.dev'
+
+run:
+    gradio app.py
+
+sync:
+    uv sync --upgrade --extra dev
+
+sync-prod:
+    uv sync
+
+fmt:
+    {{bin}}/ruff check --select I --fix
+    {{bin}}/ruff format
