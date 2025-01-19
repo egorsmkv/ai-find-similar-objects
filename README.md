@@ -88,7 +88,7 @@ go install github.com/goreleaser/goreleaser/v2@latest
 ```bash
 cargo install rustus
 
-cd backend/rustus-server
+cd backend/rustus
 
 cp .env.example .env.dev
 
@@ -110,7 +110,7 @@ just run
 ```bash
 cargo install miniserve
 
-miniserve --port 8099 --interfaces 0.0.0.0 ./backend/rustus-server/data
+miniserve --port 8099 --interfaces 0.0.0.0 ./backend/rustus/data
 ```
 
 ### Frontend
