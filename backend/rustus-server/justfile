@@ -1,0 +1,4 @@
+set dotenv-filename := '.env.dev'
+
+run:
+    rustus --storage "file-storage" --data-dir "./data/" --dir-structure "{year}/{month}/{day}"
