@@ -1,0 +1,20 @@
+[package]
+name = "yolo-inference"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
+linemux = "0.3"
+log = "0.4.22"
+yolo-rs = "0.1.1"
+tokio = { version = "1.42.0", features = ["full"] }
+anyhow = "1.0.94"
+image = "0.25.5"
+ort = { version = "2.0.0-rc.9", features = ["coreml"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+
+[profile.release]
+opt-level = 3
+lto = true

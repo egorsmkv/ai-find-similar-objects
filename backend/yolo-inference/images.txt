@@ -1,0 +1,3 @@
+/Users/yehorsmoliakov/Downloads/yolo-inference/cat.png
+/Users/yehorsmoliakov/Downloads/yolo-inference/persons.png
+/Users/yehorsmoliakov/Downloads/yolo-inference/crowd.jpg

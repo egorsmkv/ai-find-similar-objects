@@ -1,0 +1,6 @@
+target/
+yolo-inference
+
+yolo11x.onnx
+
+*.log
