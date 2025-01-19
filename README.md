@@ -10,10 +10,10 @@ Also, join our Telegram group about Computer Vision: https://t.me/computer_visio
 
 ### Algorithm
 
-1. Upload a large file using [TUS protocol][4]
+1. Upload a file using [TUS protocol][4]
 2. Detect objects using [YOLO 11][3]
 3. [Embed][1] each image using [**nomic-embed-vision-v1.5**][2] and upload into **Qdrant**
-4. Upload interested object and try to find similar ones
+4. Upload own object to find similar ones
 
 ### Components
 
@@ -23,6 +23,7 @@ Also, join our Telegram group about Computer Vision: https://t.me/computer_visio
 Backend:
 
   - https://github.com/s3rius/rustus
+  - https://github.com/actix/actix-web
   - https://github.com/qdrant/qdrant
   - https://github.com/qdrant/rust-client
   - https://github.com/Anush008/fastembed-rs
@@ -32,8 +33,6 @@ Backend:
 Frontend:
 
   - https://github.com/gradio-app/gradio
-  - https://github.com/qdrant/fastembed
-  - https://github.com/tus/tus-py-client
 
 Devtools:
 
@@ -41,7 +40,7 @@ Devtools:
   - https://github.com/astral-sh/ruff
   - https://github.com/casey/just
   - https://github.com/goreleaser/goreleaser
-  
+
 </details>
 
 ## Install
