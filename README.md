@@ -12,7 +12,7 @@ Also, join our Telegram group about Computer Vision: https://t.me/computer_visio
 
 1. Upload a large file using [TUS protocol][4]
 2. Detect objects using [YOLO 11][3]
-3. [Embed][1] each image using [**clip-ViT-B-32**][2] and upload into **Qdrant**
+3. [Embed][1] each image using [**nomic-embed-vision-v1.5**][2] and upload into **Qdrant**
 4. Upload interested object and try to find similar ones
 
 ### Components
@@ -130,7 +130,7 @@ just run
 ```
 
 [1]: https://en.wikipedia.org/wiki/Word_embedding
-[2]: https://huggingface.co/Qdrant/clip-ViT-B-32-vision
+[2]: https://huggingface.co/nomic-ai/nomic-embed-vision-v1.5
 [3]: https://docs.ultralytics.com/models/yolo11/
 [4]: https://tus.io/
 [5]: https://goreleaser.com/install/
