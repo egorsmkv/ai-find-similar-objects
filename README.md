@@ -33,6 +33,7 @@ Frontend:
 
   - https://github.com/gradio-app/gradio
   - https://github.com/qdrant/fastembed
+  - https://github.com/tus/tus-py-client
 
 Devtools:
 
