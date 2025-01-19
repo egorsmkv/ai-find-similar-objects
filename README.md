@@ -91,6 +91,16 @@ cp .env.example .env.dev
 just run
 ```
 
+#### Install & Run the Qdrant server
+
+```bash
+cd backend/qdrant
+
+cp .env.example .env.dev
+
+just run
+```
+
 ### Frontend
 
 ```bash

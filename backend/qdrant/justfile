@@ -1,0 +1,7 @@
+set dotenv-filename := '.env.dev'
+
+run:
+    docker compose up
+
+down:
+    docker compose down
