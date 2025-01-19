@@ -1,0 +1,7 @@
+pre-push:
+  parallel: true
+
+pre-commit:
+  commands:
+    ruff-linter:
+      run: ruff check --select I --fix && ruff format

@@ -42,6 +42,7 @@ Devtools:
   - https://github.com/astral-sh/ruff
   - https://github.com/casey/just
   - https://github.com/goreleaser/goreleaser
+  - https://github.com/evilmartians/lefthook
 
 </details>
 
@@ -129,6 +130,26 @@ just sync
 # start Gradio app
 just run
 ```
+
+### Development
+
+#### Install `ruff`
+
+```bash
+uv tool install ruff@latest
+```
+
+#### Install `lefthook`
+
+```bash
+go install github.com/evilmartians/lefthook@latest
+
+lefthook install
+```
+
+---
+
+Feel free to open an issue if you want to improve this project.
 
 [1]: https://en.wikipedia.org/wiki/Word_embedding
 [2]: https://huggingface.co/nomic-ai/nomic-embed-vision-v1.5
