@@ -101,6 +101,14 @@ cp .env.example .env.dev
 just run
 ```
 
+#### Install `miniserve`
+
+```bash
+cargo install miniserve
+
+miniserve --port 8099 --interfaces 0.0.0.0 ./backend/rustus-server/data
+```
+
 ### Frontend
 
 ```bash
