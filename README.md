@@ -10,9 +10,9 @@ Also, join our Telegram group about Computer Vision: https://t.me/computer_visio
 
 ### Algorithm
 
-1. Upload a file using [TUS protocol][4]
-2. Detect objects using [YOLO 11][3]
-3. [Embed][1] each image using [**nomic-embed-vision-v1.5**][2] and upload into **Qdrant**
+1. Upload an image using [TUS protocol][4]
+2. Detect objects on the image using [YOLO 11][3]
+3. [Embed][1] each object using [**nomic-embed-vision-v1.5**][2] and save a vector into **Qdrant** with metadata
 4. Upload own object to find similar ones
 
 ### Components
